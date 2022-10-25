@@ -40,6 +40,14 @@ dependencies:
   page_indicator: ^0.4.1
   font_awesome_flutter: ^10.2.1
   dots_indicator: ^2.1.0
+  icons_launcher: ^2.0.5
+icons_launcher:
+  image_path: 'assets/AppLogo.png'
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
 
 dev_dependencies:
   flutter_test:
@@ -51,7 +59,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  
 
+
+    
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

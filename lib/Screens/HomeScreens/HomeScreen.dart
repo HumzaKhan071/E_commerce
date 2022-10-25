@@ -41,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
         appBar: PreferredSize(
             preferredSize: Size.fromHeight(150),
             child: AppBar(
+              automaticallyImplyLeading: false,
               backgroundColor: Colors.white,
               elevation: 0,
               title: Text("Discovery",
